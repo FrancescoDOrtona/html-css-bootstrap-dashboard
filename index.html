@@ -23,14 +23,14 @@
     <link rel="shortcut icon" href="./img/mobile-logo.ico" sizes="16x16" type="image/x-icon">
     <title>Dashboard</title>
   </head>
-  <body class="debug d-flex flex-column vh-100 overflow-hidden">
+  <body class="debu d-flex flex-column vh-100 overflow-hidden">
     <aside class="py-3">
         <!-- search bar -->
         <div class="container-fluid">
             <div class="row flex-nowrap align-items-center">
                 <div class="col-auto">
-                    <img class="img-fluid d-none d-lg-block" src="./img/logo.svg" alt="">
-                    <img class="img-fluid d-lg-none logo_mobile" src="./img/mobile-logo.png" alt="">
+                    <img class="img-fluid d-none d-lg-block logo__desktop" src="./img/logo.svg" alt="">
+                    <img class="img-fluid d-lg-none logo__mobile" src="./img/mobile-logo.png" alt="">
                 </div>
                 <div class="col-auto flex-grow-1">
                     <form class="d-flex" role="search">
@@ -74,7 +74,7 @@
 
     <main class="flex-grow-1 d-flex flex-row">
         <!-- main content -->
-        <header>
+        <header class="nav-bar">
             <!-- side bar -->
             <div class="container h-100">
                 <div class="row h-100 flex-column">
@@ -85,7 +85,7 @@
         </header>
 
         <section class="flex-grow-1 d-flex flex-column">
-            <div>
+            <div class="top-data">
                 <!-- top bar with students data -->
                 <div class="container-fluid">
                     <div class="row flex-row">

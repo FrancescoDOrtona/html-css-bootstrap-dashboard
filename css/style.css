@@ -19,7 +19,11 @@ a{
 
 /* search-bar */
 
-.logo_mobile{
+.logo__desktop{
+    width: 135px;
+}
+
+.logo__mobile{
     width: 32px;
 }
 
@@ -36,17 +40,64 @@ a{
     color: #FF8F00;
 }
 
+
+/* nav-bar */
+
+.nav-bar{
+    background-color: #051E34;
+    background-image: url(../img/sidebar-bg.png);
+    width: 70px;
+    flex-shrink: 0;
+}
+
+
+/* top-data */
+
+.top-data{
+    background-color: #1B72E8;
+}
+
+
+
+/* responsive */
+
+/* // Small devices (landscape phones, 576px and up) */
+@media (min-width: 576px) { 
+ }
+
+/* // Medium devices (tablets, 768px and up) */
+@media (min-width: 768px) { 
+    
+ }
+
+/* // Large devices (desktops, 992px and up) */
+@media (min-width: 992px) { 
+    .nav-bar{
+        width: 150px;
+    }
+ }
+
+/* // X-Large devices (large desktops, 1200px and up) */
+@media (min-width: 1200px) { 
+
+ }
+
+/* // XX-Large devices (larger desktops, 1400px and up) */
+@media (min-width: 1400px) { 
+
+ }
+
+
 /* debug */
 
-.debug aside,
+/* .debug aside,
 .debug main{
     padding: 20px;
     border: 2px solid red;
-}
+} */
 
 .debug header,
 .debug section{
-    padding: 20px;
     border: 2px solid green;
 }
 
