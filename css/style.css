@@ -70,12 +70,15 @@ a{
     color: white;
 }
 
-
+.badge-hover:hover{
+    opacity: 0.5;
+}
 
 /* responsive */
 
 /* // Small devices (landscape phones, 576px and up) */
-@media (min-width: 576px) { 
+@media (min-width: 576px) {
+
  }
 
 /* // Medium devices (tablets, 768px and up) */
