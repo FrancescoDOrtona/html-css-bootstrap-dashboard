@@ -69,11 +69,15 @@
                 <a href="#"><i class="fa-solid fa-ellipsis-vertical"></i></a>
               </li>
             </ul>
-            <span>
-              <a href="#offcanvas" data-bs-toggle="offcanvas"
-                ><i class="fa-solid fa-bell bell-icon"></i
+            <div>
+              <a href="#" class="dropdown-toggle" data-bs-toggle="dropdown"><i class="fa-solid fa-bell bell-icon"></i
               ></a>
-            </span>
+              <ul class="dropdown-menu">
+                <li><a class="dropdown-item" href="#">Profilo</a></li>
+                <li><a class="dropdown-item" href="#">Fatturazione</a></li>
+                <li><a class="dropdown-item" href="#">Logout</a></li>
+              </ul>
+            </div>
             <div
               class="offcanvas offcanvas-end"
               tabindex="-1"
@@ -196,8 +200,16 @@
                   >
                 </div>
               </div>
-              <div class="col-auto flex-grow-3"></div>
-              <div class="col-auto flex-grow-1"></div>
+              <div class="col-auto flex-grow-3 d-flex flex-column gap-2">
+                <p class="m-0 fs-6">Studenti online negli ultimi 30 minuti</p>
+                <h3>125</h3>
+              </div>
+              <div class="col-auto flex-grow-1 order-md-0 d-flex align-items-center gap-3 ">
+                <span>Nuovo Studente</span>
+                <a class="" href="#offcanvas" data-bs-toggle="offcanvas">
+                    <i class="new-student-icon fa-regular fa-square-plus"></i>
+                </a href="">
+              </div>
             </div>
           </div>
         </div>

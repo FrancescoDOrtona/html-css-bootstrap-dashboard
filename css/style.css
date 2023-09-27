@@ -40,6 +40,10 @@ a{
     color: #FF8F00;
 }
 
+.dropdown-toggle::after{
+    display: none;
+}
+
 
 /* nav-bar */
 
@@ -72,6 +76,11 @@ a{
 
 .badge-hover:hover{
     opacity: 0.5;
+}
+
+.new-student-icon{
+    font-size: 40px;
+    font-weight: lighter;
 }
 
 /* responsive */
