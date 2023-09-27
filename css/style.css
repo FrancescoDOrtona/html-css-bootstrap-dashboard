@@ -48,8 +48,20 @@ a{
     background-image: url(../img/sidebar-bg.png);
     width: 70px;
     flex-shrink: 0;
+    color: white;
 }
 
+.nav-bar__icon{
+    width: 18px;
+}
+
+.nav-bar__item{
+    padding: 12px 5px;
+}
+
+.nav-bar__item:hover{
+    background-color: rgba(255, 255, 255, 0.4);
+}
 
 /* top-data */
 
