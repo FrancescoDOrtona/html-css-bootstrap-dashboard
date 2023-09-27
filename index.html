@@ -26,10 +26,26 @@
     <aside>
         <!-- search bar -->
         <div class="container-fluid">
-            <div class="row">
-                <div class="col-auto"></div>
-                <div class="col-auto flex-grow-1"></div>
-                <div class="col-auto"></div>
+            <div class="row flex-nowrap align-items-center">
+                <div class="col-auto">
+                    <img class="img-fluid d-none d-lg-block" src="./img/logo.svg" alt="">
+                    <img class="img-fluid d-lg-none logo_mobile" src="./img/mobile-logo.png" alt="">
+                </div>
+                <div class="col-auto flex-grow-1">
+                    <form class="d-flex" role="search">
+                        <input class="form-control me-2 search-bar" type="search" placeholder="&#128269; Prova a cercare: Lezioni di Laravel" aria-label="Search">
+                      </form>
+                </div>
+                <div class="col-auto d-flex flex-nowrap  gap-4 align-items-center">
+                    <ul class=" list-unstyled d-flex flex-row align-items-center m-0 gap-4 d-none d-lg-flex">
+                        <li><a href="#"><i class="fa-solid fa-list-ul "></i></a></li>
+                        <li><a href="#"><i class="fa-solid fa-circle-question"></i></a></li>
+                        <li><a href="#"><i class="fa-solid fa-ellipsis-vertical"></i></a></li>                        
+                    </ul>
+                    <span>
+                        <a href=""><i class="fa-solid fa-bell bell-icon"></i></a>
+                    </span>
+                </div>
             </div>
         </div>
     </aside>

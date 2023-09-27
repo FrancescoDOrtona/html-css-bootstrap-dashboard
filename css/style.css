@@ -2,7 +2,10 @@ html{
     font-family: 'Montserrat', sans-serif;
 }
 
-
+a{
+    text-decoration: none;
+    color: currentColor;
+}
 /* utility class */
 
 .flex-grow-5{
@@ -14,7 +17,24 @@ html{
 }
 
 
+/* search-bar */
 
+.logo_mobile{
+    width: 32px;
+}
+
+.search-bar{
+    background-color: #E5E5E5;
+}
+
+::placeholder{
+    font-weight: 500;
+    font-size: 15px;
+}
+
+.bell-icon{
+    color: #FF8F00;
+}
 
 /* debug */
 
