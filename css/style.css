@@ -1,3 +1,41 @@
 html{
     font-family: 'Montserrat', sans-serif;
 }
+
+
+/* utility class */
+
+.flex-grow-5{
+    flex-grow: 5;
+}
+
+.flex-grow-3{
+    flex-grow: 3;
+}
+
+
+
+
+/* debug */
+
+.debug aside,
+.debug main{
+    padding: 20px;
+    border: 2px solid red;
+}
+
+.debug header,
+.debug section{
+    padding: 20px;
+    border: 2px solid green;
+}
+
+.debug section>div{
+    padding: 20px;
+    border: 2px solid blue;
+}
+
+.debug [class^="col-"]{
+    padding: 20px;
+    border: 2px solid purple;
+}
