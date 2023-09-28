@@ -83,11 +83,21 @@ a{
     font-weight: lighter;
 }
 
+.new-student{
+    order: -1;
+}
+
 /* responsive */
 
 /* // Small devices (landscape phones, 576px and up) */
 @media (min-width: 576px) {
+    .top-data__header{
+        flex-wrap: nowrap;
+    }
 
+    .new-student{
+        order: 1;
+    }
  }
 
 /* // Medium devices (tablets, 768px and up) */
