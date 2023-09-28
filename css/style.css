@@ -87,6 +87,11 @@ a{
     order: -1;
 }
 
+.offcanvas.canvas__style{
+    width: 700px;
+}
+
+
 /* responsive */
 
 /* // Small devices (landscape phones, 576px and up) */
