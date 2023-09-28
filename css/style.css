@@ -96,9 +96,24 @@ a{
 .table-img{
     width: 30px;
 }
+/* card area */
+
+.card-area{
+    background-color: #E5E5E5;
+}
 
 
+/* scrollbar */
 
+::-webkit-scrollbar{
+    background-color: #E5E5E5;
+    width: 10px;
+}
+
+::-webkit-scrollbar-thumb{
+    background-color: #051E34;
+    border-radius: 999px;   
+}
 
 /* responsive */
 
