@@ -19,6 +19,10 @@ a{
 
 /* search-bar */
 
+aside{
+    background-color: #F8F9FA;
+}
+
 .logo__desktop{
     width: 135px;
 }
@@ -29,6 +33,15 @@ a{
 
 .search-bar{
     background-color: #E5E5E5;
+    padding-left: 40px;
+}
+
+.search-icon{
+    top: 50%;
+    transform: translateY(-50%);
+    left: 12px;
+    font-size: 20px;
+    pointer-events: none;
 }
 
 ::placeholder{
